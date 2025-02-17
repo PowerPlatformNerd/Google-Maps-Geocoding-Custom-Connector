@@ -23,12 +23,12 @@ Before using this connector, ensure you have the following:
 
 ### 1️⃣ Download Unmanaged Solution
 ```sh
-GoogleMapsConnectorSolution_1_0_0_2.zip
+GoogleMapsConnectorSolution_1_0_0_1.zip
 ```
 ### 🔄 Import the Solution into Power Platform
 - Open Power Apps or Power Automate Home Page.
 - Navigate to Solutions > Import Solution.
-- Click Browse, select GoogleMapsConnectorSolution_1_0_0_2.zip, and upload.
+- Click Browse, select GoogleMapsConnectorSolution_1_0_0_1.zip, and upload.
 - Click Next and follow the installation step
 
 
