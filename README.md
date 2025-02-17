@@ -1,7 +1,11 @@
 # Google Maps Geocoding Custom Connector  
 
 ## Overview  
-The **Google Maps Geocoding Custom Connector** for **Power Automate and Power Apps** enables seamless integration with the **Google Maps Geocoding API**, allowing users to convert addresses into geographic coordinates (geocoding) and retrieve addresses from latitude/longitude data (reverse geocoding). You can also add Address descriptors which provide richer location details by including nearby landmarks and areas in geocoding results. 
+The **Google Maps Geocoding Custom Connector** for **Power Automate and Power Apps** enables seamless integration with the **Google Maps Geocoding API**, allowing users to:  
+
+- Convert addresses into geographic coordinates (**Geocoding**).  
+- Retrieve addresses from latitude/longitude data (**Reverse Geocoding**).  
+- Include **Address Descriptors** to provide richer location details such as nearby landmarks and areas.  
 
 ## Features  
 - 📍 **Geocoding** – Convert addresses into latitude/longitude coordinates.  
@@ -9,16 +13,26 @@ The **Google Maps Geocoding Custom Connector** for **Power Automate and Power Ap
 - 🏢 **Address Descriptors** – Extract metadata such as place types and location descriptors.  
 
 ## Prerequisites  
-- 🔹 **Google Cloud Platform (GCP) account** with the **Geocoding API enabled**.  
-- 🔹 **API Key** from Google Maps Platform.  
-- 🔹 **Power Platform environment** (Power Automate, Power Apps, or Logic Apps).  
+Before using this connector, ensure you have the following:  
+
+- 🔹 A **Google Cloud Platform (GCP) account** with the **Geocoding API enabled**.  
+- 🔹 A valid **API Key** from Google Maps Platform.  
+- 🔹 Access to a **Power Platform environment** (Power Automate, Power Apps, or Logic Apps).
+
+## Installation  
+
+### 1️⃣ Download Unmanaged Solution
+```sh
+GoogleMapsConnectorSolution_1_0_0_2.zip
+```
+### 🔄 Import the Solution into Power Platform
+- Open Power Apps or Power Automate Home Page.
+- Navigate to Solutions > Import Solution.
+- Click Browse, select GoogleMapsConnectorSolution_1_0_0_2.zip, and upload.
+- Click Next and follow the installation step
+
 
 ## API Endpoint Used  
 ```plaintext
 https://maps.googleapis.com/maps/api/geocode/json?address={ADDRESS}&key={API_KEY}&latlng={LATITUDE},{LONGITUDE}&extra_computations=ADDRESS_DESCRIPTORS
 
-## Installation  
-
-### 1️⃣ Clone this repository  
-```sh
-GoogleMapsConnectorSolution_1_0_0_1.zip
