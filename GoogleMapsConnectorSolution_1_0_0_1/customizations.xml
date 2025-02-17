@@ -1,0 +1,30 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25021.162" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25021.00162">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Connectors>
+    <Connector>
+      <connectorid>53a45514-4b65-45f3-aafe-d13e539031c5</connectorid>
+      <description>Google Maps API Custom Connector</description>
+      <displayname>Google Maps Connector</displayname>
+      <iconbrandcolor>#ffffff</iconbrandcolor>
+      <name>fg_google-20maps-20connector</name>
+      <connectortype>1</connectortype>
+      <openapidefinition>/Connector/fg_google-20maps-20connector_openapidefinition.json</openapidefinition>
+      <connectionparameters>/Connector/fg_google-20maps-20connector_connectionparameters.json</connectionparameters>
+      <policytemplateinstances>/Connector/fg_google-20maps-20connector_policytemplateinstances.json</policytemplateinstances>
+      <iconblob>/Connector/fg_google-20maps-20connector_iconblob.Png</iconblob>
+    </Connector>
+  </Connectors>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
